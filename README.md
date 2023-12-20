@@ -12,8 +12,8 @@ This is an implemntation of on-premises Active Directory while using Azure Virtu
 
 <h2>Deployment and Configuration Process</h2>
 
--  Step 1
--  Step 2
+-  Create the Azure Virtual Machines
+-  Ensure that the virtual machines are communicating
 -  Step 3
 -  Step 4
 -  Step 5
