@@ -22,3 +22,10 @@ This is an implemntation of on-premises Active Directory while using Azure Virtu
 
 During the creation process of the Domain Controller set the NIC Private IP address to be static
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+How does text look in this?
+</p>
+<p>
