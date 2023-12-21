@@ -27,7 +27,7 @@ Create a Virtual Network and Subnet
 
 Create a Domain Controller VM (Window Server 2022) for this instance it will be labeled DC-1
 
-Create the CLient VM (Windows 10)
+Create the Client VM (Windows 10)
 
 Change the Domain Controller's NIC Private IP from Dynamic to Static
 
