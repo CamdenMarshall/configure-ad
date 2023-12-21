@@ -20,3 +20,5 @@ This is an implemntation of on-premises Active Directory while using Azure Virtu
 
 <h2>In depth Deployment and Configuration Process</h2>
 
+During the creation process of the Domain Controller set the NIC Private IP address to be static
+
