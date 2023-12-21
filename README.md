@@ -94,7 +94,13 @@ From the Azure portal take the Client VM's Private IP Address and alter it to ma
 
 Then restart the Client VM within the Azure portal
 
+Remote Desktop back into the Client VM to join it to the Domain
 
+When in the Client VM right click on the start button and select System and then click on "Rename this PC (advanced)"
+
+(Screenshot the Domain Stuff)
+
+Logout of Client VM
 
 <h2>Setup Remote Desktop for non-administrative users on Client VM</h2>
 
