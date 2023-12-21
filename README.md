@@ -104,5 +104,13 @@ Logout of Client VM
 
 <h2>Setup Remote Desktop for non-administrative users on Client VM</h2>
 
+Remote Desktop connect into the Client VM once again but login as the Admin account
+
+Once logged in return to System and then click on "Remote Desktop" then access "Select users that can remotely access this PC"
+
+Add "Domain Users" to the users allowing all users on the Domain to login through the Client VM
+
+(Screenshot adding Domain Users)
+
 
 
