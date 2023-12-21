@@ -35,7 +35,7 @@ Change the Domain Controller's NIC Private IP from Dynamic to Static
 
 <h2>Ensure Connection Between the Virtual Machines</h2>
 
-Login to the CLient VM through Remote Desktop and ping DC-1's IP address with ping -t (Command Line for a perpetual ping)
+Login to the Client VM through Remote Desktop and ping DC-1's IP address with ping -t (Command Line for a perpetual ping)
 
 This ping should initially fail or time out within the Command Line Prompt
 
@@ -52,7 +52,7 @@ Once sorting by Protocol find ICMPv4 and Enable the Core Networking Echo Request
 (Screenshot here)
 
 
-Check CLient VM to see the ping succeed and in the Command Line Prompt hit the buttons Ctrl-C to stop the ping
+Check Client VM to see the ping succeed and in the Command Line Prompt hit the buttons Ctrl-C to stop the ping
 
 (Screenshot here)
 
