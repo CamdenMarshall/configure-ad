@@ -19,7 +19,7 @@ This is an implemntation of on-premises Active Directory while using Azure Virtu
 -  Join the Client VM to the Domain
 -  Setup Remote Desktop for non-administrative users
 
-<h2>In depth Deployment and Configuration Process</h2>
+<h2>In Depth Deployment and Configuration Process</h2>
 
 Begin by creating a Resource Group within Azure
 
