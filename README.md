@@ -42,7 +42,7 @@ Change the Domain Controller's NIC Private IP from Dynamic to Static
 ![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/35265b1f-7f75-4aeb-b9b9-4fdb3217f3ff)
 
 
-Create the Client VM (Windows 10)
+Create the Client VM (Windows 10) on the created VNet
 
 
 
@@ -52,7 +52,8 @@ Login to the Client VM through Remote Desktop and ping DC-1's IP address with pi
 
 This ping should initially fail or time out within the Command Line Prompt
 
-(Screenshot here)
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/7d01c673-bd5f-4a10-9371-b5d477be9ce2)
+
 
 Login to the Domain Controller with Remote Desktop and enable ICMPv4 on the local Windows Firewall
 
@@ -62,12 +63,13 @@ Select Inbound Rules then click to sort by Protocol
 
 Once sorting by Protocol find ICMPv4 and Enable the Core Networking Echo Requests by right clicking on them
 
-(Screenshot here)
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/2d6aa81d-22bd-4bcf-8728-d68f03e57b0b)
 
 
 Check Client VM to see the ping succeed and in the Command Line Prompt hit the buttons Ctrl-C to stop the ping
 
-(Screenshot here)
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/7577a43b-6872-40b0-a55f-87acaf100677)
+
 
 <h2>Installing Active Directory</h2>
 
