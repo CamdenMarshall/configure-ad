@@ -75,11 +75,17 @@ Check Client VM to see the ping succeed and in the Command Line Prompt hit the b
 
 Install Active Directory through the Server Manager software
 
-Active Directory Domain Services
+Active Directory Domain Services by clicking on Add roles and features
 
-Click Yellow Flag up top to begin turning the VM into the Domain Controller
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/f3a1e85e-12db-4819-9486-50936307a7d7)
 
-(Click through the process until it is all installed)
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/afa89a47-c688-4e57-bbb7-63fbb96334f4)
+
+
+Click The Flag up top to begin turning the VM into the Domain Controller
+
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/ccf925a2-8b5f-4e96-91c6-8c8e0ddaf06e)
+
 
 Once the installation process has been completed then it will automatically close the Remote Desktop session to restart as a Domain Controller
 
