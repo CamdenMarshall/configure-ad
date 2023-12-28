@@ -21,11 +21,13 @@ This is an implemntation of on-premises Active Directory while using Azure Virtu
 
 <h2>In Depth Deployment and Configuration Process</h2>
 
-Begin by creating a Resource Group within Azure
+Begin by creating a Domain Controller VM (Window Server 2022) for this instance it will be labeled DC-1
+
+While creating the Domain Controller set the Resource Group
+
+During the setup of the Domain Controller create the Admin account and ensure that you can refer back to that information as needed
 
 Create a Virtual Network and Subnet
-
-Create a Domain Controller VM (Window Server 2022) for this instance it will be labeled DC-1
 
 Create the Client VM (Windows 10)
 
