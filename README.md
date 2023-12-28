@@ -23,15 +23,26 @@ This is an implemntation of on-premises Active Directory while using Azure Virtu
 
 Begin by creating a Domain Controller VM (Window Server 2022) for this instance it will be labeled DC-1
 
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/7fb71902-7e4f-4fba-ac71-62b2a9c98872)
+
 While creating the Domain Controller set the Resource Group
 
 During the setup of the Domain Controller create the Admin account and ensure that you can refer back to that information as needed
 
-Create a Virtual Network and Subnet
-
-Create the Client VM (Windows 10)
+A Virtual Network and Subnet will be created during the creation of the Domain Controller
 
 Change the Domain Controller's NIC Private IP from Dynamic to Static
+
+-  Select DC-1 from Virtual Machines tab
+-  Select Networking from the menu on the the right
+-  Click on the Network Interface
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/437ad667-099d-4ba2-87db-156e4c9ea293)
+-  Go to IP configurations and select ipconfig
+-  Turn the Private IP address to static
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/35265b1f-7f75-4aeb-b9b9-4fdb3217f3ff)
+
+
+Create the Client VM (Windows 10)
 
 
 
