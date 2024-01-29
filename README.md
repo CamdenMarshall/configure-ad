@@ -86,6 +86,7 @@ Click The Flag up top to begin turning the VM into the Domain Controller
 
 ![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/ccf925a2-8b5f-4e96-91c6-8c8e0ddaf06e)
 
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/c242a132-6eae-4f44-b7dd-f0927cbaf20b)
 
 Once the installation process has been completed then it will automatically close the Remote Desktop session to restart as a Domain Controller
 
@@ -101,7 +102,13 @@ To access Active Directory click the Tools dropdown box in Server Manager
 
 Create an Employees and Admins Organizational Units
 
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/57bda783-1689-47ef-a87f-71b0bf47e1f1)
+
+
 Create an Admin account and right click on it to give it Domain Admins Group access 
+
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/e7366826-9092-4e80-8a09-4b6ca4010665)
+
 
 Then logout of current Remote Desktop session
 
@@ -119,7 +126,10 @@ Remote Desktop back into the Client VM to join it to the Domain
 
 When in the Client VM right click on the start button and select System and then click on "Rename this PC (advanced)"
 
-(Screenshot the Domain Stuff)
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/a54fa73c-e39c-4bb2-9bf8-a6d717c46804)
+
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/f7a2da48-015b-4986-88e3-d6b0c6f7c1fa)
+
 
 Logout of Client VM
 
@@ -131,7 +141,8 @@ Once logged in return to System and then click on "Remote Desktop" then access "
 
 Add "Domain Users" to the users allowing all users on the Domain to login through the Client VM
 
-(Screenshot adding Domain Users)
+![image](https://github.com/CamdenMarshall/configure-ad/assets/153537343/e344ad15-1d5b-4a8f-b24a-e58772b11cdb)
+
 
 
 
